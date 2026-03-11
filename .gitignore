@@ -39,5 +39,6 @@ lerna-debug.log*
 .env.local
 .env.*.local
 
-# Test
-test
+# Test directories (matches test folder at any level)
+**/test/
+**/tests/
